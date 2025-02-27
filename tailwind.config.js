@@ -16,7 +16,7 @@ export default {
           blue: '#214859',
           light: '#aab296',
           soft: '#d4d8ca',
-          DEFAULT: '#455a21',
+          DEFAULT: '#485750',
           dim: '#1c2111',
           dark: '#16180c',         
         }

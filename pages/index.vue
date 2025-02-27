@@ -20,32 +20,19 @@
             <h2 class="px-4 text-5xl text-tris dark:text-tris-soft">{{ $t('bakeryCom') }}</h2>
             <p class="pt-12 pb-4 px-4 text-xl md:text-2xl dark:text-tris-soft">{{ $t('masajeDesP') }}</p>
         </div>
-        <div class="md:flex md:flex-nowrap my-24">
+        <div class="md:flex md:flex-nowrap justify-center items-center my-24">
 
-            <div class="justify-center items-center">
+            <div class="">
                 <MasajeIndex/>
             </div>
         </div>
         
-        <h2  class="text-5xl pl-4 text-tris dark:text-tris-soft">{{ $t('cakeCom') }}</h2>
+        <h2  class="text-5xl pl-4 text-center text-tris dark:text-tris-soft">{{ $t('models1H1') }}</h2>
         <div class="md:flex md:flex-nowrap my-24">
             <div class="pl-4  ">
-                <Cake></Cake>
-            </div>
-            <div class=" ">
-                <p class="pt-12 pb-4 px-4 text-xl md:text-2xl dark:text-tris-soft">{{ $t('cakeP1') }}</p>
+                <Models />
             </div>
         </div> 
-        
-        <div class="md:flex md:flex-nowrap my-24">
-            <div class=" pl-4 w-full">
-                <h2  class="text-5xl text-tris dark:text-tris-soft">{{ $t('frozenCom') }}</h2>
-                <p class="pt-12 pb-4 px-4 text-xl md:text-2xl dark:text-tris-soft">{{ $t('frozenP1') }}</p>
-            </div>
-            <div class="pl-4">
-                <Frozen></Frozen>
-            </div>
-        </div>  
 
         
     </div>

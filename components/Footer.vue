@@ -11,14 +11,14 @@ const form = reactive({ email: 'mail@example.com', password: 'password' })
         <h3 class="my-4 md:text-3xl text-xl sm:justify-center flex justify-center items-center">Síguenos En: </h3>
         <div class="flex flex-wrap gap-4 justify-center">
           <ULink
-            to="https://www.facebook.com/profile.php?id=10008493500078"
+            to="https://www.facebook.com/"
             active-class="text-tris bg-tris"
             inactive-class="text-tris dark:text-logodark hover:text-tris-light dark:text-logolight dark:hover:text-logodark"
           >
           <Icon name="brandico:facebook-rect" size="3em"  />
           </ULink>
           <ULink
-            to="https://www.instagram.com/delitrismascotasreposteria/"
+            to="https://www.instagram.com/"
             active-class="text-tris bg-tris"
             inactive-class="text-tris dark:text-logodark hover:text-tris-light dark:text-logolight dark:hover:text-logodark"
           >
@@ -34,7 +34,11 @@ const form = reactive({ email: 'mail@example.com', password: 'password' })
         </div>
       </div>
       <div class="space-y-4 md:flex md:flex-col flex justify-center items-center">
-        <h3 class="mb-4 md:text-3xl text-xl">Número de Domicilios </h3>
+        <div  class="flex flex-nowrap">
+            
+            <Icon name="solar:map-point-favourite-broken" size="1.6em" class="text-white " style="color: black" />
+            <h4 class="text-xl pl-4">calle49a-80-80</h4>
+        </div>
         <div  class="flex flex-nowrap">
             
             <Icon name="solar:phone-calling-rounded-line-duotone" size="1.6em" class="text-white " style="color: black" />
