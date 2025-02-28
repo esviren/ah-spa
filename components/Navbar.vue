@@ -19,13 +19,15 @@
             </template>
             <template #end>
                 <div class="flex items-center gap-2">
-                    <UToggle size="lg" 
-                        class="mr-1 top-2 border-tris-light",
-                        on-icon="i-heroicons-sun-20-solid"
+                    <LocaleSwitcher />
+                    <ColorSwitcher />
+                   <!-- <UToggle size="lg" 
+                        class="mr-1 border-tris-light dark:bg-tris",
+                        on-icon="material-symbols-light:wb-sunny"
                         off-icon="i-heroicons-moon-16-solid"
                         color="tris"
-                        v-model="selected1" v-on:click="setColorTheme()"/>
-                    <Avatar image="/images/log-mini.png" shape="circle" class="hover:bg-[#616138]"/>
+                        v-model="selected1" v-on:click="setColorTheme()"/> -->
+                    
                 </div>
             </template>
         </Menubar>

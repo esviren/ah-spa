@@ -2,7 +2,7 @@
 
     <div class="container mx-auto my-24 p-2">
         <div class="flex flex-wrap justify-center items-center">
-            <div class="pb-8 md:mr-8 justify-center items-center">
+            <div class="pb-8 md:mr-16 justify-center items-center">
                 <img class=" w-auto" src="/images/AH-SPA.png"
                   alt="Delitris">
             </div>
@@ -14,10 +14,10 @@
         </div>
 
         <h1 class="pt-24 mx-2 text-center text-3xl lg:text-7xl  text-tris dark:text-tris-soft">{{ $t('indexH1') }}</h1>
-        <h2 class="pb-4 md:pb-32 text-center text-7xl lg:text-9xl text-tris dark:text-tris-soft">A·H SPA For Men</h2>
+        <h2 class="pb-4 md:pb-32 text-center text-7xl lg:text-9xl text-tris dark:text-tris-soft">A·H SPA ForMen</h2>
 
         <div>
-            <h2 class="px-4 text-5xl text-tris dark:text-tris-soft">{{ $t('bakeryCom') }}</h2>
+            <h2 class="px-4 text-5xl text-tris dark:text-tris-soft">{{ $t('masaje1H2') }}</h2>
             <p class="pt-12 pb-4 px-4 text-xl md:text-2xl dark:text-tris-soft">{{ $t('masajeDesP') }}</p>
         </div>
         <div class="md:flex md:flex-nowrap justify-center items-center my-24">
@@ -41,8 +41,6 @@
 </template>
 
 <script setup lang="ts">
-
-import Card from 'primevue/card'
 
 const { t } = useI18n()
 

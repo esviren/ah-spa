@@ -3,7 +3,7 @@
 <template>
     <div class="flex flex-col">
         <div class="flex flex-row">
-            <Card style="width: 16rem; overflow: hidden" class="mx-8">
+            <Card style="width: 16rem; overflow: hidden" class="min-w-64 mx-8">
             <template #header>
                 <img alt="user header" src="/images/icon-1.png" />
             </template>
@@ -21,7 +21,7 @@
                 </div>
             </template>
         </Card>
-        <Card style="width: 16rem; overflow: hidden" class="mx-8">
+        <Card style="width: 16rem; overflow: hidden" class="min-w-64 mx-8">
             <template #header>
                 <img alt="user header" src="/images/icon-2.png" />
             </template>
@@ -39,7 +39,7 @@
                 </div>
             </template>
         </Card>
-        <Card style="width: 16rem; overflow: hidden" class="mx-8">
+        <Card style="width: 16rem; overflow: hidden" class="min-w-64 mx-8">
             <template #header>
                 <img alt="user header" src="/images/icon-3.png" />
             </template>
@@ -59,7 +59,7 @@
         </Card>
         </div>
         <div class="flex flex-row mt-24">
-            <Card style="width: 16rem; overflow: hidden" class="mx-8">
+            <Card style="width: 16rem; overflow: hidden" class="min-w-64 mx-8">
             <template #header>
                 <img alt="user header" src="/images/icon-4.png" />
             </template>
@@ -77,7 +77,7 @@
                 </div>
             </template>
         </Card>
-        <Card style="width: 16rem; overflow: hidden"class="mx-8">
+        <Card style="width: 16rem; overflow: hidden"class="min-w-64 mx-8">
             <template #header>
                 <img alt="user header" src="/images/icon-5.png" />
             </template>
@@ -95,7 +95,7 @@
                 </div>
             </template>
         </Card>
-        <Card style="width: 16rem; overflow: hidden" class="mx-8">
+        <Card style="width: 16rem; overflow: hidden" class="min-w-64 mx-8">
             <template #header>
                 <img alt="user header" src="/images/icon-6.png" />
             </template>
