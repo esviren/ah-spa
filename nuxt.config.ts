@@ -27,5 +27,5 @@ export default defineNuxtConfig({
     classSuffix: ''
   },
 
-  compatibilityDate: '2025-02-11'
+  compatibilityDate: '2025-02-11',
 })

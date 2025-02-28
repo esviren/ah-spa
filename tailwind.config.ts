@@ -18,11 +18,11 @@ export default <Partial<Config>>{
         textblue: '#214859',
         tris: {
           blue: '#214859',
-          light: '#aab296',
-          soft: '#d4d8ca',
-          DEFAULT: '#455a21',
-          dim: '#1c2111',
-          dark: '#16180c',   
+          light: '#ffe680',
+          soft: '#decd87',
+          DEFAULT: '#d3bc5f',
+          dim: '#786721',
+          dark: '#28220b', 
         }
       }
     }
