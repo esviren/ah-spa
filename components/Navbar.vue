@@ -41,6 +41,8 @@ import { useRouter } from 'vue-router'
 
 const router = useRouter()
 
+const { t } = useI18n()
+
 const selected1 = ref(false)
 
 var selected2 = false
@@ -63,21 +65,21 @@ const setColorTheme = () => {
 
 const items = ref([
     {
-        label: 'Home',
+        label: t('navHome'),
         icon: 'solar:home-smile-angle-broken',
         command: () => {
             router.push('/');
         }
     },
     {
-        label: 'Modelos',
+        label: t('navModels'),
         icon: 'healthicons:sexual-reproductive-health',
         command: () => {
             router.push('/models');
         }
     },
     {
-        label: 'Masajes',
+        label: t('navMassage'),
         icon: 'guidance:massage',
         command: () => {
             router.push('/masajes');

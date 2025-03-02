@@ -3,9 +3,11 @@ export default defineI18nConfig(() => ({
     locale: 'es',
     messages: {
       en: {
-        nameTitle: 'Delitris',
+        nameTitle: 'A·H SPA',
         welcome: 'Welcome',
         navHome: 'Home',
+        navMassage: 'Massage',
+        navModels: 'Models',
         navBakery: 'Bakery',
         navFrozen: 'Frozen',
         navCake: 'Cake',
@@ -40,9 +42,11 @@ export default defineI18nConfig(() => ({
         contactP1: ''
       },
       es: {
-        nameTitle: 'Delitris',
+        nameTitle: 'A·H SPA',
         welcome: 'Bienvenido',
         navHome: 'Inicio',
+        navMassage: 'Masajes',
+        navModels: 'Modelos',
         navBakery: 'Horneados',
         navFrozen: 'Congelados',
         navCake: 'Tortas',
