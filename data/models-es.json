@@ -14,7 +14,7 @@
         "animalType":"both",
         "style":"Bebida de bienvenida, aceites esenciales",
         "background":"",
-        "image1":"modelo1",
+        "image1":"masajista-2",
         "image2":"",
         "imageBack":"Logo-Delitris-Circle",
         "value":""
@@ -33,7 +33,7 @@
         "animalType":"both",
         "style":"ring-2 hover:ring-4 ring-red-300 dark:ring-red-600",
         "background":"",
-        "image1":"modelo2",
+        "image1":"masajista-3",
         "image2":"",
         "imageBack":"Logo-Delitris-Circle",
         "value":""
@@ -52,7 +52,7 @@
         "animalType":"hombres",
         "style":"ring-2 hover:ring-4 ring-red-300 dark:ring-red-600",
         "background":"",
-        "image1":"modelo3",
+        "image1":"masajista-1",
         "image2":"",
         "imageBack":"Logo-Delitris-Circle",
         "value":""
@@ -71,7 +71,7 @@
         "animalType":"gatos",
         "style":"ring-2 hover:ring-4 ring-red-300 dark:ring-red-600",
         "background":"",
-        "image1":"modelo4",
+        "image1":"masajista-4",
         "image2":"",
         "imageBack":"Logo-Delitris-Circle",
         "value":""

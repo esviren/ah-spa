@@ -3,7 +3,7 @@
 <template>
     <div class="flex flex-col">
         <div class="flex flex-row">
-            <Card style="width: 16rem; overflow: hidden" class="mx-8">
+            <Card style="width: 16rem; overflow: hidden" class="min-w-96 mx-8">
             <template #header>
                 <img alt="user header" src="/images/icon-1.png" />
             </template>
@@ -16,7 +16,7 @@
                 <div class="flex gap-4 mt-1">
                     <Button label="Conoce Más" severity="secondary" outlined class="w-full" />
                     <ULink
-                        to="https://wa.me/573001951017"
+                        to="https://wa.me/573174605995"
                         active-class="text-tris bg-tris"
                         inactive-class="rounded-lg text-white ml-2 px-2 py-4 bg-tris border-tris hover:bg-logolight hover:border-logolight dark:hover:bg-logolight dark:hover:border-logolight"
                     >
@@ -25,7 +25,7 @@
                 </div>
             </template>
         </Card>
-        <Card style="width: 16rem; overflow: hidden" class="mx-8">
+        <Card style="width: 16rem; overflow: hidden" class="min-w-96 mx-8">
             <template #header>
                 <img alt="user header" src="/images/icon-2.png" />
             </template>
@@ -38,7 +38,7 @@
                 <div class="flex gap-4 mt-1">
                     <Button label="Conoce Más" severity="secondary" outlined class="w-full" />
                     <ULink
-                        to="https://wa.me/573001951017"
+                        to="https://wa.me/573174605995"
                         active-class="text-tris bg-tris"
                         inactive-class="rounded-lg text-white ml-2 px-2 py-4 bg-tris border-tris hover:bg-logolight hover:border-logolight dark:hover:bg-logolight dark:hover:border-logolight"
                     >
@@ -47,7 +47,7 @@
                 </div>
             </template>
         </Card>
-        <Card style="width: 16rem; overflow: hidden" class="mx-8">
+        <Card style="width: 16rem; overflow: hidden" class="min-w-96 mx-8">
             <template #header>
                 <img alt="user header" src="/images/icon-3.png" />
             </template>
@@ -60,7 +60,7 @@
                 <div class="flex gap-4 mt-1">
                     <Button label="Conoce Más" severity="secondary" outlined class="w-full" />
                     <ULink
-                        to="https://wa.me/573001951017"
+                        to="https://wa.me/573174605995"
                         active-class="text-tris bg-tris"
                         inactive-class="rounded-lg text-white ml-2 px-2 py-4 bg-tris border-tris hover:bg-logolight hover:border-logolight dark:hover:bg-logolight dark:hover:border-logolight"
                     >
@@ -71,7 +71,7 @@
         </Card>
         </div>
         <div class="flex flex-row mt-24">
-            <Card style="width: 16rem; overflow: hidden" class="mx-8">
+            <Card style="width: 16rem; overflow: hidden" class="min-w-96 mx-8">
             <template #header>
                 <img alt="user header" src="/images/icon-4.png" />
             </template>
@@ -84,7 +84,7 @@
                 <div class="flex gap-4 mt-1">
                     <Button label="Conoce Más" severity="secondary" outlined class="w-full" />
                     <ULink
-                        to="https://wa.me/573001951017"
+                        to="https://wa.me/573174605995"
                         active-class="text-tris bg-tris"
                         inactive-class="rounded-lg text-white ml-2 px-2 py-4 bg-tris border-tris hover:bg-logolight hover:border-logolight dark:hover:bg-logolight dark:hover:border-logolight"
                     >
@@ -93,7 +93,7 @@
                 </div>
             </template>
         </Card>
-        <Card style="width: 16rem; overflow: hidden"class="mx-8">
+        <Card style="width: 16rem; overflow: hidden"class="min-w-96 mx-8">
             <template #header>
                 <img alt="user header" src="/images/icon-5.png" />
             </template>
@@ -106,7 +106,7 @@
                 <div class="flex gap-4 mt-1">
                     <Button label="Conoce Más" severity="secondary" outlined class="w-full" />
                     <ULink
-                        to="https://wa.me/573001951017"
+                        to="https://wa.me/573174605995"
                         active-class="text-tris bg-tris"
                         inactive-class="rounded-lg text-white ml-2 px-2 py-4 bg-tris border-tris hover:bg-logolight hover:border-logolight dark:hover:bg-logolight dark:hover:border-logolight"
                     >
@@ -115,7 +115,7 @@
                 </div>
             </template>
         </Card>
-        <Card style="width: 16rem; overflow: hidden" class="mx-8">
+        <Card style="width: 16rem; overflow: hidden" class="min-w-96 mx-8">
             <template #header>
                 <img alt="user header" src="/images/icon-6.png" />
             </template>
@@ -128,7 +128,7 @@
                 <div class="flex gap-4 mt-1">
                     <Button label="Conoce Más" severity="secondary" outlined class="w-full" />
                     <ULink
-                        to="https://wa.me/573001951017"
+                        to="https://wa.me/573174605995"
                         active-class="text-tris bg-tris"
                         inactive-class="rounded-lg text-white ml-2 px-2 py-4 bg-tris border-tris hover:bg-logolight hover:border-logolight dark:hover:bg-logolight dark:hover:border-logolight"
                     >

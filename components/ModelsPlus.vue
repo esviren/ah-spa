@@ -18,7 +18,7 @@
                                 <div v-if="slotProps.data.animalType != 'both'">
                                     <UTooltip :text="`Ideal Para ${slotProps.data.animalType}`" :popper="{ arrow: true }">
                                     <ULink
-                                    to=""
+                                    to="/model/clara"
                                     active-class="text-tris bg-tris"
                                     inactive-class="rounded-lg text-white ml-2 px-2 py-2 bg-tris border-tris hover:bg-logolight hover:border-logolight dark:hover:bg-logolight dark:hover:border-logolight"
                                 >
@@ -30,7 +30,7 @@
                                 <div v-else class="">
                                     <UTooltip text="Hombres & Mujeres" :popper="{ arrow: true }">
                                     <ULink
-                                    to=""
+                                    to="model/clara"
                                     active-class="text-tris bg-tris"
                                     inactive-class="flex items-center rounded-lg text-white ml-2 px-2 py-2 bg-tris border-tris hover:bg-logolight hover:border-logolight dark:hover:bg-logolight dark:hover:border-logolight"
                                 >
@@ -41,8 +41,8 @@
                                 </div>
                             </div>
                             <div>
-                                <ULink
-                                    to="https://wa.me/573332850072"
+                                <ULink 
+                                    to="https://wa.me/5733174605995"
                                     active-class="text-tris bg-tris"
                                     inactive-class="rounded-lg text-white ml-2 px-2 py-4 bg-tris border-tris hover:bg-logolight hover:border-logolight dark:hover:bg-logolight dark:hover:border-logolight"
                                 >
