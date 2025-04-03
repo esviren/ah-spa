@@ -42,7 +42,7 @@
                             </div>
                             <div>
                                 <ULink
-                                    to="https://wa.me/573332850072"
+                                    to="https://wa.me/573174605995"
                                     active-class="text-tris bg-tris"
                                     inactive-class="rounded-lg text-white ml-2 px-2 py-4 bg-tris border-tris hover:bg-yellow-200 hover:border-yellow-300 dark:hover:bg-yellow-800 dark:hover:border-yellow-800"
                                 >

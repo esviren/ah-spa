@@ -3,9 +3,9 @@ import {productB} from '~/data/models-es.json'
 
 export const useModeloData = () => {
     // Simula una función para cargar datos desde un JSON
-    const loadModelos = async (): Promise<Modelos[] | null>  => {
+    const loadModelos = async (): Promise<Modelos[]>  => {
       // Puedes reemplazar esto con $fetch o importación de JSON
-      retur productB
+      return productB
     }
   
     return { loadModelos, useModeloData }
